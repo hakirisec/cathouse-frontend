@@ -26,5 +26,6 @@ module ComfortableMexicanSofa
     config.paths['config/routes.rb'] << 'config/cms_routes.rb'
     
     config.i18n.enforce_available_locales = true
+    config.active_record.whitelist_attributes = true
   end
 end
